@@ -1,0 +1,28 @@
+# Parte 1 — Sectores fuertes y débiles (método Weinstein)
+
+benchmark: SPY          # índice de referencia para la Fuerza Relativa de Mansfield
+
+data:
+  period: "5y"          # histórico; hacen falta >= 2 años para la media de 30 semanas
+  interval: "1wk"       # Weinstein trabaja SIEMPRE en gráfico semanal
+
+weinstein:
+  ma_period: 30         # la media móvil de 30 semanas: la clave del método
+  rs_ma_period: 52      # media de la RS de Mansfield
+  slope_lookback: 5     # semanas para medir la pendiente de la MM30
+  slope_threshold: 0.30 # % mínimo para considerar que la MM30 "gira al alza"
+
+sectors:
+  top_n: 4              # cuántos sectores fuertes se seleccionan
+  etfs:
+    Tecnología: XLK
+    Salud: XLV
+    Financiero: XLF
+    Consumo discrecional: XLY
+    Consumo básico: XLP
+    Energía: XLE
+    Industrial: XLI
+    Materiales: XLB
+    Inmobiliario: XLRE
+    Utilities: XLU
+    Comunicaciones: XLC

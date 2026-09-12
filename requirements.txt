@@ -1,0 +1,6 @@
+yfinance>=0.2.60
+curl_cffi>=0.15        # Yahoo bloquea clientes sin TLS de navegador (crítico en CI)
+pandas>=2.2
+numpy>=1.26
+PyYAML>=6.0
+reportlab>=4.0
