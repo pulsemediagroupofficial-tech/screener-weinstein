@@ -1,0 +1,12 @@
+puesto,sector,etf,fase_n,fase,mansfield,rs_pend,ma30_pend,ret_3m,ret_6m,dist_max_52s,nota
+1,Energía,XLE,2.0,2 · AVANCE,13.98,5.52,3.91,14.0,14.45,-1.56,97.3
+2,Tecnología,XLK,2.0,2 · AVANCE,9.94,-1.07,4.57,1.67,37.52,-5.45,85.5
+3,Salud,XLV,2.0,2 · AVANCE,-0.52,-0.04,1.6,7.98,11.34,-6.36,82.7
+4,Financiero,XLF,2.0,2 · AVANCE,-1.13,0.69,1.56,7.71,18.11,-2.3,80.0
+5,Materiales,XLB,1.0,1 · BASE,-3.95,-1.25,0.79,-1.99,4.43,-5.98,53.1
+6,Industrial,XLI,1.0,1 · BASE,-5.13,-6.06,1.0,-1.92,5.24,-8.41,47.2
+7,Consumo básico,XLP,1.0,1 · BASE,-6.33,-0.77,0.19,-2.17,-0.36,-6.33,39.9
+8,Inmobiliario,XLRE,1.0,1 · BASE,-5.78,-1.74,1.16,-3.44,4.37,-6.53,38.5
+9,Comunicaciones,XLC,4.0,4 · CAÍDA,-9.22,2.33,-0.51,1.11,-1.05,-5.94,36.8
+10,Consumo discrecional,XLY,4.0,4 · CAÍDA,-11.32,-1.4,-0.49,-2.93,2.3,-9.28,22.3
+11,Utilities,XLU,1.0,1 · BASE,-12.05,-1.62,-0.06,-4.2,-8.52,-10.58,16.7
